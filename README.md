@@ -1,2 +1,2 @@
-# Quan-ly-thư-viện
-Project 1 thực tập nhóm Quản lý nhân sự
+# Quản-lý-thư-viện
+Project 1 thực tập nhóm Quản lý thư viện
