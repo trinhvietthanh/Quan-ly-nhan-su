@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Library Manager.exe.manifest" size="119790">
+    <dependentAssembly dependencyType="install" codebase="Library Manager.exe.manifest" size="119792">
       <assemblyIdentity name="Library Manager.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ks95Bp+/EJ3RW8098XsXC/JFvh/MjrksFZFV/IaP1vc=</dsig:DigestValue>
+        <dsig:DigestValue>+qUcPf4iMnfqW+sUdMaCG/dXTAYhRyLHbYdX3rjpy8w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
