@@ -15,7 +15,7 @@ namespace Library_Manager
         DataTable dt; //Doi tuong chhua CSDL khi giao tiep
         public DatabaseConnection()
         {
-            string strCnn = @"Data Source= LAPTOP-A0V5QUUV\SQLEXPRESS ;Initial Catalog=LIBRARY;Integrated Security=True";
+            string strCnn = @"Data Source= DESKTOP-VES4POV\SQESS ;Initial Catalog=LIBRARY;Integrated Security=True";
             sqlConn = new SqlConnection(strCnn);
         }
         public bool verifyConnection()

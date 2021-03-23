@@ -1963,14 +1963,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Library Manager.exe" size="1343488">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Library Manager.exe" size="1342976">
       <assemblyIdentity name="Library Manager" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>65thiKZzh59BycJ1jDXwV+Tv5U/sdFOz78tgwR7T+6k=</dsig:DigestValue>
+        <dsig:DigestValue>JwjWy+uJ2jIpWh8rTan3faPdFyiK9J8kLZB/STZZHWE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
