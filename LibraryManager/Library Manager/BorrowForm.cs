@@ -226,7 +226,7 @@ namespace Library_Manager
                     #region THÊM
                     {
                         //
-                        if (txtAmount.Value*txtIdStudent.TextLength*dtgvCart.Rows.Count*cbxBorrowTime.Text.Length == 0)
+                        if (txtAmount.Value * txtIdStudent.TextLength * dtgvCart.Rows.Count * cbxBorrowtime.Text.Length == 0)
                         {
                             MessageBox.Show("Bạn chưa điền đủ thông tin!", "Thông báo");
                         }
@@ -240,7 +240,7 @@ namespace Library_Manager
                                         txtIdBorrow.Text = (Borrow.getId()).ToString();
                                         foreach (DataGridViewRow row in dtgvCart.Rows)
                                         {
-                                            Borrow.insertBorrow(txtIdBorrow.Text, row.Cells[0].Value.ToString(), int.Parse(row.Cells[2].Value.ToString()), DateTime.Now, cbxBorrowTime.GetItemText(cbxBorrowTime.SelectedItem)[0] - '0', txtComment.Text);
+                                            Borrow.insertBorrow(txtIdBorrow.Text, row.Cells[0].Value.ToString(), int.Parse(row.Cells[2].Value.ToString()), DateTime.Now, cbxBorrowtime.GetItemText(cbxBorrowtime.SelectedItem)[0] - '0', txtComment.Text);
                                         }
                                         txtIdBook.Text = "";
                                         txtAmount.Value = 1;
@@ -248,7 +248,7 @@ namespace Library_Manager
                                         lblQuantum.Text = "0";
                                         dtgvCart.Rows.Clear();
                                         MessageBox.Show("Tạo thành công thẻ mượn sách cho sinh viên : " + txtIdStudent.Text + "\nMã thẻ mượn : " + txtIdBorrow.Text, "Thông báo");
-                                        cbxBorrowTime.SelectedIndex = -1;
+                                        cbxBorrowtime.SelectedIndex = -1;
                                     }
                                     catch (Exception ex)
                                     {
