@@ -1,0 +1,16 @@
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\bin\Debug\CommonObject.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\bin\Debug\CommonObject.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\obj\Debug\CommonObject.dll
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\obj\Debug\CommonObject.pdb
+E:\Projects\VisualStudioProjects\Projects\ThuVien\CommonObject\obj\Debug\CommonObject.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\bin\Debug\CommonObject.dll
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\bin\Debug\CommonObject.pdb
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\obj\Debug\CommonObject.csprojResolveAssemblyReference.cache
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\obj\Debug\CommonObject.dll
+C:\Users\MANHTOM\Downloads\ThuVien\CommonObject\obj\Debug\CommonObject.pdb
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\CommonObject\bin\Debug\CommonObject.dll
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\CommonObject\bin\Debug\CommonObject.pdb
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\CommonObject\obj\Debug\CommonObject.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\CommonObject\obj\Debug\CommonObject.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\CommonObject\obj\Debug\CommonObject.dll
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\CommonObject\obj\Debug\CommonObject.pdb
