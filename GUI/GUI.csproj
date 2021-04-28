@@ -78,12 +78,6 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UC\Tab\ChiTietMuon.cs">
@@ -170,6 +164,12 @@
     <Compile Include="UC\UCDangNhap.Designer.cs">
       <DependentUpon>UCDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC\UCDefault.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC\UCDefault.Designer.cs">
+      <DependentUpon>UCDefault.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC\UCMuonTra.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -211,9 +211,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -266,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCDangNhap.resx">
       <DependentUpon>UCDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC\UCDefault.resx">
+      <DependentUpon>UCDefault.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\UCMuonTra.resx">
       <DependentUpon>UCMuonTra.cs</DependentUpon>

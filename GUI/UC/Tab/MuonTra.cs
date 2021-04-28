@@ -116,7 +116,7 @@ namespace GUI.UC.Tab
 
         private void btnSua_Click(object sender, EventArgs e)
         {
-            btnXoa.Text = "H?y";
+            btnXoa.Text = "Hủy";
             enablePMT();
         }
 

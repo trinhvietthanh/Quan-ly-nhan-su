@@ -46,7 +46,7 @@
             this.pnlToolbar.Controls.Add(this.btnMuon);
             this.pnlToolbar.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlToolbar.Location = new System.Drawing.Point(0, 0);
-            this.pnlToolbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlToolbar.Margin = new System.Windows.Forms.Padding(4);
             this.pnlToolbar.Name = "pnlToolbar";
             this.pnlToolbar.Size = new System.Drawing.Size(1096, 43);
             this.pnlToolbar.TabIndex = 0;
@@ -59,6 +59,7 @@
             this.flat_Button1.BackgroundColorHover = System.Drawing.Color.Empty;
             this.flat_Button1.BackgroundColorNormal = System.Drawing.Color.Transparent;
             this.flat_Button1.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flat_Button1.ForeColor = System.Drawing.Color.Black;
             this.flat_Button1.IconAlignment = 3;
             this.flat_Button1.IconClick = null;
             this.flat_Button1.IconHover = null;
@@ -71,7 +72,7 @@
             this.flat_Button1.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.Buttom;
             this.flat_Button1.LineSize = 3;
             this.flat_Button1.Location = new System.Drawing.Point(107, 0);
-            this.flat_Button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.flat_Button1.Margin = new System.Windows.Forms.Padding(5);
             this.flat_Button1.MinimumSize = new System.Drawing.Size(31, 28);
             this.flat_Button1.Name = "flat_Button1";
             this.flat_Button1.Size = new System.Drawing.Size(107, 43);
@@ -98,6 +99,7 @@
             this.btnMuon.BackgroundColorNormal = System.Drawing.Color.Transparent;
             this.btnMuon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMuon.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMuon.ForeColor = System.Drawing.Color.Black;
             this.btnMuon.IconAlignment = 3;
             this.btnMuon.IconClick = null;
             this.btnMuon.IconHover = null;
@@ -110,7 +112,7 @@
             this.btnMuon.LineLayout = GUI.ComponentForm.Flat_Button.LinePosition.Buttom;
             this.btnMuon.LineSize = 3;
             this.btnMuon.Location = new System.Drawing.Point(0, 0);
-            this.btnMuon.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btnMuon.Margin = new System.Windows.Forms.Padding(5);
             this.btnMuon.MinimumSize = new System.Drawing.Size(31, 28);
             this.btnMuon.Name = "btnMuon";
             this.btnMuon.Size = new System.Drawing.Size(107, 43);
@@ -130,12 +132,11 @@
             // 
             // pnlUseMuonTra
             // 
-            this.pnlUseMuonTra.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlUseMuonTra.ForeColor = System.Drawing.Color.Black;
-            this.pnlUseMuonTra.Location = new System.Drawing.Point(0, 43);
-            this.pnlUseMuonTra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlUseMuonTra.Location = new System.Drawing.Point(19, 51);
+            this.pnlUseMuonTra.Margin = new System.Windows.Forms.Padding(4);
             this.pnlUseMuonTra.Name = "pnlUseMuonTra";
-            this.pnlUseMuonTra.Size = new System.Drawing.Size(1096, 545);
+            this.pnlUseMuonTra.Size = new System.Drawing.Size(1077, 537);
             this.pnlUseMuonTra.TabIndex = 1;
             // 
             // UCMuonTra
@@ -144,7 +145,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.pnlUseMuonTra);
             this.Controls.Add(this.pnlToolbar);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UCMuonTra";
             this.Size = new System.Drawing.Size(1096, 588);
             this.pnlToolbar.ResumeLayout(false);
