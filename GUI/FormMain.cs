@@ -23,6 +23,14 @@ namespace GUI
         private void FormMain_Load(object sender, EventArgs e)
         {
             RsMv = new ResizeAndMove(this, new Control[] { pnlMenu, ptrHome }, false);
+            UC.UCDefault ucDefault = new UC.UCDefault();
+            ucDefault.Dock = DockStyle.Fill;
+            pnlUse.Controls.Add(ucDefault);
+            foreach (Control ctrl in pnlUse.Controls)
+            {
+                if (ctrl != ucDefault)
+                    ctrl.Dispose();
+            }
             bxForm.FormMain = this;
         }
 
@@ -117,7 +125,12 @@ namespace GUI
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Process.Start("http://quanlytv.comeze.com/");
+       
+        }
+
+        private void pnlUse_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

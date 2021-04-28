@@ -27,3 +27,14 @@ C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\BU
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\BUS\obj\Debug\BUS.dll
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\ThuVien\BUS\obj\Debug\BUS.pdb
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\bin\Debug\BUS.dll
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\bin\Debug\BUS.pdb
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\bin\Debug\CommonObject.dll
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\bin\Debug\DAL.dll
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\bin\Debug\CommonObject.pdb
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\bin\Debug\DAL.pdb
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.dll
+C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.pdb
