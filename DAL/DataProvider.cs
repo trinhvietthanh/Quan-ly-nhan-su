@@ -18,7 +18,7 @@ namespace QLThuVien.DataAccessLayer
         {
             try
             {
-                string sql = @"server=DESKTOP-VES4POV\SQLEXPRESS;Initial Catalog=ThuVien;Integrated Security=True";
+                string sql = @"server=LAPTOP-A0V5QUUV\SQLEXPRESS;Initial Catalog=ThuVien;Integrated Security=True";
                 SqlConnection conn = new SqlConnection(sql);
                 conn.Open();
 
@@ -29,7 +29,6 @@ namespace QLThuVien.DataAccessLayer
                 return null;
             }
         }
-
 
 
 

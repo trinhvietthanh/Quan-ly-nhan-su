@@ -482,6 +482,10 @@ namespace QLThuVien.DataAccessLayer
         #endregion
 
         #region Doc Gia
+        public static DataTable xuat_maDG()
+        {
+            return DataProvider.GetData("get_maDG");
+        }
         public static DataTable xuat_DG()
         {
             return DataProvider.GetData("get_DG");
@@ -520,8 +524,16 @@ namespace QLThuVien.DataAccessLayer
             };
             return DataProvider.ExecuteNonQuery("sua_DG", para);
         }
+        public static int sua_maDG(DocGia a)
+        {
+            SqlParameter[] para = new SqlParameter[]
+            {
+                new SqlParameter("@madg",a.MaDG)
+            };
+            return DataProvider.ExecuteNonQuery("get_maDG", para);
+        }
 
-        public static int xoa_DG(string madg)
+            public static int xoa_DG(string madg)
         {
             SqlParameter[] para = new SqlParameter[]
             {
@@ -675,7 +687,10 @@ namespace QLThuVien.DataAccessLayer
         {
             return DataProvider.GetData("get_TT");
         }
-
+        public static DataTable xuat_maTT()
+        {
+            return DataProvider.GetData("get_maTT");
+        }
         public static int them_TT(ThuThu a)
         {
             SqlParameter[] para = new SqlParameter[]
