@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using QLThuVien.BUSLayer;
+using System.Data.SqlClient;
 
 namespace GUI.UC.Tab
 {
@@ -67,10 +68,10 @@ namespace GUI.UC.Tab
         {
             txtSoPMT.Enabled = false;
             txtMDG2.Enabled = false;
-            txtMTT.Enabled = false;
             dateHtra.Enabled = false;
             dateLap.Enabled = false;
             dateTra.Enabled = false;
+            txtMTT.Enabled = false;
         }
 
         private void enablePMT()
@@ -78,6 +79,7 @@ namespace GUI.UC.Tab
             dateHtra.Enabled = true;
             dateLap.Enabled = true;
             dateTra.Enabled = true;
+            txtMTT.Enabled = true;
         }
 
         private void loadTxtPMT()
@@ -148,18 +150,40 @@ namespace GUI.UC.Tab
             dateHtra.Format = DateTimePickerFormat.Short;
             dateTra.Format = DateTimePickerFormat.Short;
         }
-
-        private void txtMDG1_TextChanged(object sender, EventArgs e)
+        #region  lookup_data
+        private void getdata(AutoCompleteStringCollection coll)
         {
-            if (txtTenDG.Text.Trim() != "")
+            QLThuVien.ValueObject.DocGia a = new QLThuVien.ValueObject.DocGia();
+            DataTable dt = BUS.xuat_maDG();
+            foreach (DataRow row in dt.Rows)
             {
-                clearDG();
-                clearCTM();
-                clearTxtPMT();
-                clearPMT();
+                coll.Add(row[0].ToString());
             }
         }
-
+        #endregion
+        private void txtMDG1_TextChanged(object sender, EventArgs e)
+        {
+            //SqlConnection con = new SqlConnection();
+            //con.ConnectionString = "Data Source=LAPTOP-A0V5QUUV\\SQLEXPRESS;Initial Catalog=ThuVien;Integrated Security=True";
+            //SqlDataAdapter adapter = new SqlDataAdapter();
+            //con.Open();
+            //SqlDataReader dr;
+            //SqlCommand command = new SqlCommand("select maDG from DocGia where maDG like @maDG", con);
+            //command.Parameters.Add(new SqlParameter("@maDG", "%" + txtMDG1.Text + "%"));
+            //command.ExecuteNonQuery();
+            //dr = command.ExecuteReader();
+            //AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
+            //while (dr.Read())
+            //{
+            //    coll.Add(dr.GetString(0));
+            //}
+            //txtMDG1.AutoCompleteCustomSource = coll;
+            //con.Close();
+            AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
+            getdata(coll);
+            txtMDG1.AutoCompleteCustomSource = coll;
+        }
+        
         private void btnGhiNhan_Click(object sender, EventArgs e)
         {
             try
@@ -182,7 +206,7 @@ namespace GUI.UC.Tab
                         BUS.tinhTien_PMT(PMT.SoPMT);
                         clearCTM();
                         loadPMT();
-                        MessageBox.Show("S?a thành công");
+                        MessageBox.Show("Sửa thành công");
                     }
                     else throw new Exception();
                 }
@@ -225,7 +249,7 @@ namespace GUI.UC.Tab
                 if (BUS.xoa_PMT(txtSoPMT.Text.Trim()) > 0)
                     MessageBox.Show("Xóa thành công");
                 else
-                    MessageBox.Show("Không xóa du?c");
+                    MessageBox.Show("Không xóa được");
                 clearCTM();
                 clearTxtPMT();
                 disablePMT();
@@ -255,7 +279,7 @@ namespace GUI.UC.Tab
                         BUS.tinhTien_PMT(PMT.SoPMT);
                         loadPMT();
                         loadCTM();
-                        MessageBox.Show("Tr? thành công");
+                        MessageBox.Show("Trả thành công");
                         ChiTietMuon.soPMT = PMT.SoPMT;
                         ChiTietMuon.maDG = PMT.MaDG;
                         ChiTietMuon.ngayLap = PMT.NgayLap.ToShortDateString();
@@ -269,7 +293,7 @@ namespace GUI.UC.Tab
             }
             catch (Exception)
             {
-                MessageBox.Show("Không tr? du?c");
+                MessageBox.Show("Không Trả được");
             }
         }
 
@@ -323,17 +347,17 @@ namespace GUI.UC.Tab
         private void tlmHong_Click(object sender, EventArgs e)
         {
             if (BUS.sua_TrangThaiCS(dgvCTM.CurrentRow.Cells[0].Value.ToString().Trim(), "Hỏng") == 1)
-                MessageBox.Show("S?a thành công");
+                MessageBox.Show("Sửa thành công");
             else
-                MessageBox.Show("Không s?a du?c");
+                MessageBox.Show("Không Sửa được");
         }
 
         private void tlmMat_Click(object sender, EventArgs e)
         {
             if (BUS.sua_TrangThaiCS(dgvCTM.CurrentRow.Cells[0].Value.ToString().Trim(), "Mất") == 1)
-                MessageBox.Show("S?a thành công");
+                MessageBox.Show("Sửa thành công");
             else
-                MessageBox.Show("Không s?a du?c");
+                MessageBox.Show("Không Sửa được");
         }
 
         private void btnMuon_Click(object sender, EventArgs e)
@@ -349,7 +373,7 @@ namespace GUI.UC.Tab
                 btnSua.Enabled = false;
             }
             else
-                MessageBox.Show("Mă d?c gi? sai ho?c d?c gi? không du?c mu?n sách");
+                MessageBox.Show("Mã độc giả sai hoặc không mượn được sách");
         }
 
         private void dateLap_ValueChanged(object sender, EventArgs e)
@@ -357,7 +381,24 @@ namespace GUI.UC.Tab
             if (dateTra.Text == " ")
                 dateTra.Value = dateLap.Value;
         }
-
-        
+        #region Mathuthu
+        #region  lookup_data
+        private void getdataTT(AutoCompleteStringCollection coll)
+        {
+            QLThuVien.ValueObject.DocGia a = new QLThuVien.ValueObject.DocGia();
+            DataTable dt = BUS.xuat_maTT();
+            foreach (DataRow row in dt.Rows)
+            {
+                coll.Add(row[0].ToString());
+            }
+        }
+        #endregion
+        private void txtMTT_TextChanged(object sender, EventArgs e)
+        {
+            AutoCompleteStringCollection a = new AutoCompleteStringCollection();
+            getdataTT(a);
+            txtMTT.AutoCompleteCustomSource = a;
+        }
+        #endregion
     }
 }

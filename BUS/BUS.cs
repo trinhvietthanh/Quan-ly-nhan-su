@@ -70,6 +70,10 @@ namespace QLThuVien.BUSLayer
         #endregion
 
         #region doc gia
+        public static DataTable xuat_maDG()
+        {
+            return DAO.xuat_maDG();
+        }
         public static DataTable xuat_DG()
         {
             return DAO.xuat_DG();
@@ -85,6 +89,10 @@ namespace QLThuVien.BUSLayer
         public static int xoa_DG(string madg)
         {
             return DAO.xoa_DG(madg);
+        }
+        public static int sua_maDG(DocGia a)
+        {
+            return DAO.sua_maDG(a);
         }
         #endregion
 
@@ -245,6 +253,10 @@ namespace QLThuVien.BUSLayer
         public static DataTable xuat_TT()
         {
             return DAO.xuat_TT();
+        }
+        public static DataTable xuat_maTT()
+        {
+            return DAO.xuat_maTT();
         }
         public static int them_TT(ThuThu a)
         {
