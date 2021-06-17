@@ -20,3 +20,9 @@ C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-th
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.csproj.CoreCompileInputs.cache
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.dll
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\CommonObject\bin\Debug\CommonObject.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\CommonObject\bin\Debug\CommonObject.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.csprojAssemblyReference.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\CommonObject\obj\Debug\CommonObject.pdb

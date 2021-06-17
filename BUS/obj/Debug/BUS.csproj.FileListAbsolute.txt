@@ -38,3 +38,14 @@ C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-th
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.dll
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\BUS\obj\Debug\BUS.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\bin\Debug\BUS.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\bin\Debug\BUS.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\bin\Debug\CommonObject.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\bin\Debug\DAL.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\bin\Debug\CommonObject.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\bin\Debug\DAL.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\obj\Debug\BUS.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\BUS\obj\Debug\BUS.pdb

@@ -33,18 +33,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlTool = new System.Windows.Forms.Panel();
             this.grbPMT = new System.Windows.Forms.GroupBox();
             this.dateTra = new System.Windows.Forms.DateTimePicker();
             this.dateHtra = new System.Windows.Forms.DateTimePicker();
             this.dateLap = new System.Windows.Forms.DateTimePicker();
-            this.btnGhiNhan = new GUI.ComponentForm.Thin_Button();
-            this.btnXoa = new GUI.ComponentForm.Thin_Button();
-            this.btnSua = new GUI.ComponentForm.Thin_Button();
             this.txtMTT = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -55,9 +52,6 @@
             this.txtSoPMT = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.grbDG = new System.Windows.Forms.GroupBox();
-            this.btnTra = new GUI.ComponentForm.Thin_Button();
-            this.btnMuon = new GUI.ComponentForm.Thin_Button();
-            this.btnXem = new GUI.ComponentForm.Thin_Button();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtLoai = new System.Windows.Forms.TextBox();
@@ -82,6 +76,12 @@
             this.tlmTrangThai = new System.Windows.Forms.ToolStripMenuItem();
             this.tlmHong = new System.Windows.Forms.ToolStripMenuItem();
             this.tlmMat = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnGhiNhan = new GUI.ComponentForm.Thin_Button();
+            this.btnXoa = new GUI.ComponentForm.Thin_Button();
+            this.btnSua = new GUI.ComponentForm.Thin_Button();
+            this.btnTra = new GUI.ComponentForm.Thin_Button();
+            this.btnMuon = new GUI.ComponentForm.Thin_Button();
+            this.btnXem = new GUI.ComponentForm.Thin_Button();
             this.pnlTool.SuspendLayout();
             this.grbPMT.SuspendLayout();
             this.grbDG.SuspendLayout();
@@ -162,110 +162,17 @@
             this.dateLap.TabIndex = 18;
             this.dateLap.ValueChanged += new System.EventHandler(this.dateLap_ValueChanged);
             // 
-            // btnGhiNhan
-            // 
-            this.btnGhiNhan.Active = false;
-            this.btnGhiNhan.BackColor = System.Drawing.Color.Transparent;
-            this.btnGhiNhan.BoderColorDisable = System.Drawing.Color.Empty;
-            this.btnGhiNhan.BorderColorClick = System.Drawing.Color.Empty;
-            this.btnGhiNhan.BorderColorHover = System.Drawing.Color.Empty;
-            this.btnGhiNhan.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnGhiNhan.ForeColor = System.Drawing.Color.Black;
-            this.btnGhiNhan.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnGhiNhan.InnerColorDisable = System.Drawing.Color.Empty;
-            this.btnGhiNhan.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnGhiNhan.InnerColorNomal = System.Drawing.Color.Transparent;
-            this.btnGhiNhan.Location = new System.Drawing.Point(8, 192);
-            this.btnGhiNhan.Margin = new System.Windows.Forms.Padding(5);
-            this.btnGhiNhan.Name = "btnGhiNhan";
-            this.btnGhiNhan.Size = new System.Drawing.Size(100, 28);
-            this.btnGhiNhan.SizeBorder = 1;
-            this.btnGhiNhan.TabIndex = 17;
-            this.btnGhiNhan.Text = "Ghi nhận";
-            this.btnGhiNhan.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.btnGhiNhan.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.btnGhiNhan.TextColorClick = System.Drawing.Color.Empty;
-            this.btnGhiNhan.TextColorDisable = System.Drawing.Color.Empty;
-            this.btnGhiNhan.TextColorHover = System.Drawing.Color.Empty;
-            this.btnGhiNhan.TextColorNomal = System.Drawing.Color.Black;
-            this.btnGhiNhan.UseActive = false;
-            this.btnGhiNhan.UseBorderColorHoverClick = false;
-            this.btnGhiNhan.UseInnerColorHoverClick = true;
-            this.btnGhiNhan.UseTextColorHoverClick = false;
-            this.btnGhiNhan.Click += new System.EventHandler(this.btnGhiNhan_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Active = false;
-            this.btnXoa.BackColor = System.Drawing.Color.Transparent;
-            this.btnXoa.BoderColorDisable = System.Drawing.Color.Empty;
-            this.btnXoa.BorderColorClick = System.Drawing.Color.Empty;
-            this.btnXoa.BorderColorHover = System.Drawing.Color.Empty;
-            this.btnXoa.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnXoa.ForeColor = System.Drawing.Color.Black;
-            this.btnXoa.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnXoa.InnerColorDisable = System.Drawing.Color.Empty;
-            this.btnXoa.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnXoa.InnerColorNomal = System.Drawing.Color.Transparent;
-            this.btnXoa.Location = new System.Drawing.Point(408, 192);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(5);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(100, 28);
-            this.btnXoa.SizeBorder = 1;
-            this.btnXoa.TabIndex = 16;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.btnXoa.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.btnXoa.TextColorClick = System.Drawing.Color.Empty;
-            this.btnXoa.TextColorDisable = System.Drawing.Color.Empty;
-            this.btnXoa.TextColorHover = System.Drawing.Color.Empty;
-            this.btnXoa.TextColorNomal = System.Drawing.Color.Black;
-            this.btnXoa.UseActive = false;
-            this.btnXoa.UseBorderColorHoverClick = false;
-            this.btnXoa.UseInnerColorHoverClick = true;
-            this.btnXoa.UseTextColorHoverClick = false;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
-            // 
-            // btnSua
-            // 
-            this.btnSua.Active = false;
-            this.btnSua.BackColor = System.Drawing.Color.Transparent;
-            this.btnSua.BoderColorDisable = System.Drawing.Color.Red;
-            this.btnSua.BorderColorClick = System.Drawing.Color.Empty;
-            this.btnSua.BorderColorHover = System.Drawing.Color.Empty;
-            this.btnSua.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnSua.ForeColor = System.Drawing.Color.Black;
-            this.btnSua.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnSua.InnerColorDisable = System.Drawing.Color.Empty;
-            this.btnSua.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnSua.InnerColorNomal = System.Drawing.Color.Transparent;
-            this.btnSua.Location = new System.Drawing.Point(275, 192);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(5);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(100, 28);
-            this.btnSua.SizeBorder = 1;
-            this.btnSua.TabIndex = 15;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.btnSua.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.btnSua.TextColorClick = System.Drawing.Color.Empty;
-            this.btnSua.TextColorDisable = System.Drawing.Color.Black;
-            this.btnSua.TextColorHover = System.Drawing.Color.Empty;
-            this.btnSua.TextColorNomal = System.Drawing.Color.Black;
-            this.btnSua.UseActive = true;
-            this.btnSua.UseBorderColorHoverClick = false;
-            this.btnSua.UseInnerColorHoverClick = true;
-            this.btnSua.UseTextColorHoverClick = false;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
             // txtMTT
             // 
+            this.txtMTT.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtMTT.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtMTT.Location = new System.Drawing.Point(275, 149);
             this.txtMTT.Margin = new System.Windows.Forms.Padding(4);
             this.txtMTT.MaxLength = 10;
             this.txtMTT.Name = "txtMTT";
             this.txtMTT.Size = new System.Drawing.Size(232, 22);
             this.txtMTT.TabIndex = 13;
+            this.txtMTT.TextChanged += new System.EventHandler(this.txtMTT_TextChanged);
             // 
             // label11
             // 
@@ -370,102 +277,6 @@
             this.grbDG.TabIndex = 0;
             this.grbDG.TabStop = false;
             this.grbDG.Text = "Thông tin độc giả";
-            // 
-            // btnTra
-            // 
-            this.btnTra.Active = false;
-            this.btnTra.BackColor = System.Drawing.Color.Transparent;
-            this.btnTra.BoderColorDisable = System.Drawing.Color.Empty;
-            this.btnTra.BorderColorClick = System.Drawing.Color.Empty;
-            this.btnTra.BorderColorHover = System.Drawing.Color.Empty;
-            this.btnTra.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnTra.ForeColor = System.Drawing.Color.Black;
-            this.btnTra.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnTra.InnerColorDisable = System.Drawing.Color.Empty;
-            this.btnTra.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnTra.InnerColorNomal = System.Drawing.Color.Transparent;
-            this.btnTra.Location = new System.Drawing.Point(425, 192);
-            this.btnTra.Margin = new System.Windows.Forms.Padding(5);
-            this.btnTra.Name = "btnTra";
-            this.btnTra.Size = new System.Drawing.Size(100, 28);
-            this.btnTra.SizeBorder = 1;
-            this.btnTra.TabIndex = 17;
-            this.btnTra.Text = "Trả sách";
-            this.btnTra.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.btnTra.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.btnTra.TextColorClick = System.Drawing.Color.Empty;
-            this.btnTra.TextColorDisable = System.Drawing.Color.Empty;
-            this.btnTra.TextColorHover = System.Drawing.Color.Empty;
-            this.btnTra.TextColorNomal = System.Drawing.Color.Black;
-            this.btnTra.UseActive = false;
-            this.btnTra.UseBorderColorHoverClick = false;
-            this.btnTra.UseInnerColorHoverClick = true;
-            this.btnTra.UseTextColorHoverClick = false;
-            this.btnTra.Click += new System.EventHandler(this.btnTra_Click);
-            // 
-            // btnMuon
-            // 
-            this.btnMuon.Active = false;
-            this.btnMuon.BackColor = System.Drawing.Color.Transparent;
-            this.btnMuon.BoderColorDisable = System.Drawing.Color.Empty;
-            this.btnMuon.BorderColorClick = System.Drawing.Color.Empty;
-            this.btnMuon.BorderColorHover = System.Drawing.Color.Empty;
-            this.btnMuon.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnMuon.ForeColor = System.Drawing.Color.Black;
-            this.btnMuon.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnMuon.InnerColorDisable = System.Drawing.Color.Empty;
-            this.btnMuon.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnMuon.InnerColorNomal = System.Drawing.Color.Transparent;
-            this.btnMuon.Location = new System.Drawing.Point(292, 192);
-            this.btnMuon.Margin = new System.Windows.Forms.Padding(5);
-            this.btnMuon.Name = "btnMuon";
-            this.btnMuon.Size = new System.Drawing.Size(100, 28);
-            this.btnMuon.SizeBorder = 1;
-            this.btnMuon.TabIndex = 16;
-            this.btnMuon.Text = "Mượn sách";
-            this.btnMuon.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.btnMuon.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.btnMuon.TextColorClick = System.Drawing.Color.Empty;
-            this.btnMuon.TextColorDisable = System.Drawing.Color.Empty;
-            this.btnMuon.TextColorHover = System.Drawing.Color.Empty;
-            this.btnMuon.TextColorNomal = System.Drawing.Color.Black;
-            this.btnMuon.UseActive = false;
-            this.btnMuon.UseBorderColorHoverClick = false;
-            this.btnMuon.UseInnerColorHoverClick = true;
-            this.btnMuon.UseTextColorHoverClick = false;
-            this.btnMuon.Click += new System.EventHandler(this.btnMuon_Click);
-            // 
-            // btnXem
-            // 
-            this.btnXem.Active = false;
-            this.btnXem.BackColor = System.Drawing.Color.Transparent;
-            this.btnXem.BoderColorDisable = System.Drawing.Color.Empty;
-            this.btnXem.BorderColorClick = System.Drawing.Color.Empty;
-            this.btnXem.BorderColorHover = System.Drawing.Color.Empty;
-            this.btnXem.BorderColorNomal = System.Drawing.Color.Green;
-            this.btnXem.ForeColor = System.Drawing.Color.Black;
-            this.btnXem.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.btnXem.InnerColorDisable = System.Drawing.Color.Empty;
-            this.btnXem.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnXem.InnerColorNomal = System.Drawing.Color.Transparent;
-            this.btnXem.Location = new System.Drawing.Point(8, 192);
-            this.btnXem.Margin = new System.Windows.Forms.Padding(5);
-            this.btnXem.Name = "btnXem";
-            this.btnXem.Size = new System.Drawing.Size(100, 28);
-            this.btnXem.SizeBorder = 1;
-            this.btnXem.TabIndex = 15;
-            this.btnXem.Text = "Xem";
-            this.btnXem.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
-            this.btnXem.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
-            this.btnXem.TextColorClick = System.Drawing.Color.Empty;
-            this.btnXem.TextColorDisable = System.Drawing.Color.Empty;
-            this.btnXem.TextColorHover = System.Drawing.Color.Empty;
-            this.btnXem.TextColorNomal = System.Drawing.Color.Black;
-            this.btnXem.UseActive = false;
-            this.btnXem.UseBorderColorHoverClick = false;
-            this.btnXem.UseInnerColorHoverClick = true;
-            this.btnXem.UseTextColorHoverClick = false;
-            this.btnXem.Click += new System.EventHandler(this.btnXem_Click);
             // 
             // txtSDT
             // 
@@ -583,6 +394,8 @@
             // 
             // txtMDG1
             // 
+            this.txtMDG1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtMDG1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.txtMDG1.Location = new System.Drawing.Point(8, 46);
             this.txtMDG1.Margin = new System.Windows.Forms.Padding(4);
             this.txtMDG1.MaxLength = 10;
@@ -620,22 +433,24 @@
             this.dgvPMT.AllowUserToAddRows = false;
             this.dgvPMT.AllowUserToDeleteRows = false;
             this.dgvPMT.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dgvPMT.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dgvPMT.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvPMT.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPMT.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvPMT.ColumnHeadersHeight = 29;
             this.dgvPMT.Location = new System.Drawing.Point(4, 19);
             this.dgvPMT.Margin = new System.Windows.Forms.Padding(4);
             this.dgvPMT.MultiSelect = false;
             this.dgvPMT.Name = "dgvPMT";
             this.dgvPMT.ReadOnly = true;
             this.dgvPMT.RowHeadersVisible = false;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dgvPMT.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvPMT.RowHeadersWidth = 51;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dgvPMT.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvPMT.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvPMT.Size = new System.Drawing.Size(540, 294);
             this.dgvPMT.TabIndex = 5;
@@ -661,22 +476,24 @@
             this.dgvCTM.AllowUserToAddRows = false;
             this.dgvCTM.AllowUserToDeleteRows = false;
             this.dgvCTM.AllowUserToResizeRows = false;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dgvCTM.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dgvCTM.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.dgvCTM.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvCTM.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dgvCTM.ColumnHeadersHeight = 29;
             this.dgvCTM.Location = new System.Drawing.Point(4, 19);
             this.dgvCTM.Margin = new System.Windows.Forms.Padding(4);
             this.dgvCTM.MultiSelect = false;
             this.dgvCTM.Name = "dgvCTM";
             this.dgvCTM.ReadOnly = true;
             this.dgvCTM.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dgvCTM.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvCTM.RowHeadersWidth = 51;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dgvCTM.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvCTM.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvCTM.Size = new System.Drawing.Size(540, 294);
             this.dgvCTM.TabIndex = 5;
@@ -725,16 +542,208 @@
             // tlmHong
             // 
             this.tlmHong.Name = "tlmHong";
-            this.tlmHong.Size = new System.Drawing.Size(121, 26);
+            this.tlmHong.Size = new System.Drawing.Size(129, 26);
             this.tlmHong.Text = "Hỏng";
             this.tlmHong.Click += new System.EventHandler(this.tlmHong_Click);
             // 
             // tlmMat
             // 
             this.tlmMat.Name = "tlmMat";
-            this.tlmMat.Size = new System.Drawing.Size(121, 26);
+            this.tlmMat.Size = new System.Drawing.Size(129, 26);
             this.tlmMat.Text = "Mất";
             this.tlmMat.Click += new System.EventHandler(this.tlmMat_Click);
+            // 
+            // btnGhiNhan
+            // 
+            this.btnGhiNhan.Active = false;
+            this.btnGhiNhan.BackColor = System.Drawing.Color.Transparent;
+            this.btnGhiNhan.BoderColorDisable = System.Drawing.Color.Empty;
+            this.btnGhiNhan.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnGhiNhan.BorderColorHover = System.Drawing.Color.Empty;
+            this.btnGhiNhan.BorderColorNomal = System.Drawing.Color.Green;
+            this.btnGhiNhan.ForeColor = System.Drawing.Color.Black;
+            this.btnGhiNhan.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnGhiNhan.InnerColorDisable = System.Drawing.Color.Empty;
+            this.btnGhiNhan.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnGhiNhan.InnerColorNomal = System.Drawing.Color.Transparent;
+            this.btnGhiNhan.Location = new System.Drawing.Point(8, 192);
+            this.btnGhiNhan.Margin = new System.Windows.Forms.Padding(5);
+            this.btnGhiNhan.Name = "btnGhiNhan";
+            this.btnGhiNhan.Size = new System.Drawing.Size(100, 28);
+            this.btnGhiNhan.SizeBorder = 1;
+            this.btnGhiNhan.TabIndex = 17;
+            this.btnGhiNhan.Text = "Ghi nhận";
+            this.btnGhiNhan.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.btnGhiNhan.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.btnGhiNhan.TextColorClick = System.Drawing.Color.Empty;
+            this.btnGhiNhan.TextColorDisable = System.Drawing.Color.Empty;
+            this.btnGhiNhan.TextColorHover = System.Drawing.Color.Empty;
+            this.btnGhiNhan.TextColorNomal = System.Drawing.Color.Black;
+            this.btnGhiNhan.UseActive = false;
+            this.btnGhiNhan.UseBorderColorHoverClick = false;
+            this.btnGhiNhan.UseInnerColorHoverClick = true;
+            this.btnGhiNhan.UseTextColorHoverClick = false;
+            this.btnGhiNhan.Click += new System.EventHandler(this.btnGhiNhan_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Active = false;
+            this.btnXoa.BackColor = System.Drawing.Color.Transparent;
+            this.btnXoa.BoderColorDisable = System.Drawing.Color.Empty;
+            this.btnXoa.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnXoa.BorderColorHover = System.Drawing.Color.Empty;
+            this.btnXoa.BorderColorNomal = System.Drawing.Color.Green;
+            this.btnXoa.ForeColor = System.Drawing.Color.Black;
+            this.btnXoa.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnXoa.InnerColorDisable = System.Drawing.Color.Empty;
+            this.btnXoa.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnXoa.InnerColorNomal = System.Drawing.Color.Transparent;
+            this.btnXoa.Location = new System.Drawing.Point(408, 192);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(5);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(100, 28);
+            this.btnXoa.SizeBorder = 1;
+            this.btnXoa.TabIndex = 16;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.btnXoa.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.btnXoa.TextColorClick = System.Drawing.Color.Empty;
+            this.btnXoa.TextColorDisable = System.Drawing.Color.Empty;
+            this.btnXoa.TextColorHover = System.Drawing.Color.Empty;
+            this.btnXoa.TextColorNomal = System.Drawing.Color.Black;
+            this.btnXoa.UseActive = false;
+            this.btnXoa.UseBorderColorHoverClick = false;
+            this.btnXoa.UseInnerColorHoverClick = true;
+            this.btnXoa.UseTextColorHoverClick = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Active = false;
+            this.btnSua.BackColor = System.Drawing.Color.Transparent;
+            this.btnSua.BoderColorDisable = System.Drawing.Color.Red;
+            this.btnSua.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnSua.BorderColorHover = System.Drawing.Color.Empty;
+            this.btnSua.BorderColorNomal = System.Drawing.Color.Green;
+            this.btnSua.ForeColor = System.Drawing.Color.Black;
+            this.btnSua.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnSua.InnerColorDisable = System.Drawing.Color.Empty;
+            this.btnSua.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnSua.InnerColorNomal = System.Drawing.Color.Transparent;
+            this.btnSua.Location = new System.Drawing.Point(275, 192);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(100, 28);
+            this.btnSua.SizeBorder = 1;
+            this.btnSua.TabIndex = 15;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.btnSua.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.btnSua.TextColorClick = System.Drawing.Color.Empty;
+            this.btnSua.TextColorDisable = System.Drawing.Color.Black;
+            this.btnSua.TextColorHover = System.Drawing.Color.Empty;
+            this.btnSua.TextColorNomal = System.Drawing.Color.Black;
+            this.btnSua.UseActive = true;
+            this.btnSua.UseBorderColorHoverClick = false;
+            this.btnSua.UseInnerColorHoverClick = true;
+            this.btnSua.UseTextColorHoverClick = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
+            // btnTra
+            // 
+            this.btnTra.Active = false;
+            this.btnTra.BackColor = System.Drawing.Color.Transparent;
+            this.btnTra.BoderColorDisable = System.Drawing.Color.Empty;
+            this.btnTra.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnTra.BorderColorHover = System.Drawing.Color.Empty;
+            this.btnTra.BorderColorNomal = System.Drawing.Color.Green;
+            this.btnTra.ForeColor = System.Drawing.Color.Black;
+            this.btnTra.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnTra.InnerColorDisable = System.Drawing.Color.Empty;
+            this.btnTra.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnTra.InnerColorNomal = System.Drawing.Color.Transparent;
+            this.btnTra.Location = new System.Drawing.Point(425, 192);
+            this.btnTra.Margin = new System.Windows.Forms.Padding(5);
+            this.btnTra.Name = "btnTra";
+            this.btnTra.Size = new System.Drawing.Size(100, 28);
+            this.btnTra.SizeBorder = 1;
+            this.btnTra.TabIndex = 17;
+            this.btnTra.Text = "Trả sách";
+            this.btnTra.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.btnTra.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.btnTra.TextColorClick = System.Drawing.Color.Empty;
+            this.btnTra.TextColorDisable = System.Drawing.Color.Empty;
+            this.btnTra.TextColorHover = System.Drawing.Color.Empty;
+            this.btnTra.TextColorNomal = System.Drawing.Color.Black;
+            this.btnTra.UseActive = false;
+            this.btnTra.UseBorderColorHoverClick = false;
+            this.btnTra.UseInnerColorHoverClick = true;
+            this.btnTra.UseTextColorHoverClick = false;
+            this.btnTra.Click += new System.EventHandler(this.btnTra_Click);
+            // 
+            // btnMuon
+            // 
+            this.btnMuon.Active = false;
+            this.btnMuon.BackColor = System.Drawing.Color.Transparent;
+            this.btnMuon.BoderColorDisable = System.Drawing.Color.Empty;
+            this.btnMuon.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnMuon.BorderColorHover = System.Drawing.Color.Empty;
+            this.btnMuon.BorderColorNomal = System.Drawing.Color.Green;
+            this.btnMuon.ForeColor = System.Drawing.Color.Black;
+            this.btnMuon.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnMuon.InnerColorDisable = System.Drawing.Color.Empty;
+            this.btnMuon.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnMuon.InnerColorNomal = System.Drawing.Color.Transparent;
+            this.btnMuon.Location = new System.Drawing.Point(292, 192);
+            this.btnMuon.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMuon.Name = "btnMuon";
+            this.btnMuon.Size = new System.Drawing.Size(100, 28);
+            this.btnMuon.SizeBorder = 1;
+            this.btnMuon.TabIndex = 16;
+            this.btnMuon.Text = "Mượn sách";
+            this.btnMuon.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.btnMuon.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.btnMuon.TextColorClick = System.Drawing.Color.Empty;
+            this.btnMuon.TextColorDisable = System.Drawing.Color.Empty;
+            this.btnMuon.TextColorHover = System.Drawing.Color.Empty;
+            this.btnMuon.TextColorNomal = System.Drawing.Color.Black;
+            this.btnMuon.UseActive = false;
+            this.btnMuon.UseBorderColorHoverClick = false;
+            this.btnMuon.UseInnerColorHoverClick = true;
+            this.btnMuon.UseTextColorHoverClick = false;
+            this.btnMuon.Click += new System.EventHandler(this.btnMuon_Click);
+            // 
+            // btnXem
+            // 
+            this.btnXem.Active = false;
+            this.btnXem.BackColor = System.Drawing.Color.Transparent;
+            this.btnXem.BoderColorDisable = System.Drawing.Color.Empty;
+            this.btnXem.BorderColorClick = System.Drawing.Color.Empty;
+            this.btnXem.BorderColorHover = System.Drawing.Color.Empty;
+            this.btnXem.BorderColorNomal = System.Drawing.Color.Green;
+            this.btnXem.ForeColor = System.Drawing.Color.Black;
+            this.btnXem.InnerColorClick = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnXem.InnerColorDisable = System.Drawing.Color.Empty;
+            this.btnXem.InnerColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btnXem.InnerColorNomal = System.Drawing.Color.Transparent;
+            this.btnXem.Location = new System.Drawing.Point(8, 192);
+            this.btnXem.Margin = new System.Windows.Forms.Padding(5);
+            this.btnXem.Name = "btnXem";
+            this.btnXem.Size = new System.Drawing.Size(100, 28);
+            this.btnXem.SizeBorder = 1;
+            this.btnXem.TabIndex = 15;
+            this.btnXem.Text = "Xem";
+            this.btnXem.TextAlignmentHorizontal = System.Drawing.StringAlignment.Center;
+            this.btnXem.TextAlignmentVertical = System.Drawing.StringAlignment.Center;
+            this.btnXem.TextColorClick = System.Drawing.Color.Empty;
+            this.btnXem.TextColorDisable = System.Drawing.Color.Empty;
+            this.btnXem.TextColorHover = System.Drawing.Color.Empty;
+            this.btnXem.TextColorNomal = System.Drawing.Color.Black;
+            this.btnXem.UseActive = false;
+            this.btnXem.UseBorderColorHoverClick = false;
+            this.btnXem.UseInnerColorHoverClick = true;
+            this.btnXem.UseTextColorHoverClick = false;
+            this.btnXem.Click += new System.EventHandler(this.btnXem_Click);
             // 
             // MuonTra
             // 

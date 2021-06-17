@@ -197,3 +197,43 @@ C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-th
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\GUI\bin\Debug\DAL.pdb
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\ADMIN\Desktop\BTL Lý thuyết hệ điều hành\New folder\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCDefault.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\GUI.exe.config
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\GUI.exe
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\GUI.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\BUS.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\CommonObject.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\DAL.dll
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\BUS.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\CommonObject.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\bin\Debug\DAL.pdb
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.ComponentForm.BoxFrom.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.ComponentForm.Flat_Button.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.ComponentForm.Thin_Button.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.FormMain.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.ChiTietMuon.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.ChonTG.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.ChonTL.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.CuonSach.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.DangMuon.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.LapPhieuMuon.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.MuonSach.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.MuonTra.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.QuaHan.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.SachTheoTuaSach.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.ThemSachMuon.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.DocGia.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.Tab.TuaSach.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCDangNhap.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCDefault.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCMuonTra.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCNghiepVu.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCSach.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCThongKe.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.UC.UCTimKiem.resources
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.exe
+C:\Users\ACER\OneDrive\Máy tính\Thực tập CSDL\Quan-ly-thu-vien\GUI\obj\Debug\GUI.pdb

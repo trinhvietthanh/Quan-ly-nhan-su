@@ -1,7 +1,6 @@
-﻿using System;
-using System.Data;
+﻿using QLThuVien.BUSLayer;
+using System;
 using System.Windows.Forms;
-using QLThuVien.BUSLayer;
 
 namespace GUI.UC.Tab
 {
