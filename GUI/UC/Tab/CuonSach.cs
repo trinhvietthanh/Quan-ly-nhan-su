@@ -134,7 +134,7 @@ namespace GUI.UC.Tab
                 {
 
                     if (txtmacs.Text == "") throw new Exception();
-                    if (BUS.themtdcs(int.Parse(txtmacs.Text), comtt.Text.Trim(), comts.SelectedValue.ToString()) > 0)
+                    if (BUS.themtdcs(int.Parse(txtmacs.Text), comtt.Text.Trim(), comts.SelectedValue.ToString()) != 1)
                     {
 
                         loadtodgv();
@@ -151,10 +151,12 @@ namespace GUI.UC.Tab
                     QLThuVien.ValueObject.CuonSach a = new QLThuVien.ValueObject.CuonSach();
                     a.MaCS = txtmacs.Text.Trim();
                     a.TrangThai = comtt.Text.Trim();
+                    
                     a.MaTS = comts.SelectedValue.ToString();
 
                     if (a.MaCS == null || a.MaCS == "") throw new Exception();
-                    if (BUS.sua_CS(a) == 1)
+                    
+                    if (BUS.sua_CS(a) != 1)
                     {
                         loadtodgv();
                         MessageBox.Show("Sửa Thành Công");
